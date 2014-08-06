@@ -31,5 +31,6 @@
         android:layout_height="wrap_content"
         android:background="@drawable/reader_transparent_selector"
         android:gravity="center_vertical"
+        android:contentDescription="@string/reader_label_remove_tag"
         android:src="@drawable/ic_content_remove" />
 </LinearLayout>

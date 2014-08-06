@@ -45,18 +45,21 @@
                     android:id="@+id/image_reblog_btn"
                     style="@style/ReaderImageView.ButtonIcon"
                     android:layout_weight="1"
+                    android:contentDescription="@string/reader_btn_reblog"
                     android:src="@drawable/reader_button_reblog" />
 
                 <ImageView
                     android:id="@+id/image_comment_btn"
                     android:layout_weight="1"
                     style="@style/ReaderImageView.ButtonIcon"
+                    android:contentDescription="@string/reader_btn_comment"
                     android:src="@drawable/reader_button_comment" />
 
                 <ImageView
                     android:id="@+id/image_like_btn"
                     android:layout_weight="1"
                     style="@style/ReaderImageView.ButtonIcon"
+                    android:contentDescription="@string/reader_btn_like"
                     android:src="@drawable/reader_button_like" />
             </LinearLayout>
 
